@@ -1,3 +1,6 @@
+# This is Data Preprocessing of House Price
+
+
 import os
 import math
 import numpy as np
