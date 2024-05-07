@@ -7,16 +7,7 @@ import pandas as pd
 import seaborn as sns
 from datetime import datetime
 from IPython.display import display
-import openpyxl
 
-from sklearn.decomposition import PCA
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-from sklearn.linear_model import ElasticNet
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [10, 6]
@@ -105,3 +96,5 @@ plt.show()
 
 print(f'\n\033[1mInference:\033[0m After the cleanup process, {original_df.shape[0] - df.shape[0]} samples were dropped, \
 while retaining {round(100 - (df.shape[0] * 100 / original_df.shape[0]), 2)}% of the data.')
+
+
