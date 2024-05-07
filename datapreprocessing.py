@@ -1,6 +1,5 @@
 # This is Data Preprocessing of House Price
 
-
 import os
 import math
 import numpy as np
@@ -33,7 +32,7 @@ try:
 except FileNotFoundError:
     print("File not found. Please check the file path.")
 
-# Removal of any Duplicate rows (if any)
+# Remove Duplicate rows (if any)
 counter = 0
 rs, cs = df.shape  # Corrected line
 
